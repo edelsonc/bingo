@@ -16,12 +16,13 @@ $ python3 bingo
 ```
 
 The bingo board choices are specifies by the `bingo_choices.txt` file. To
-update to custom choices, simply replace each of the `Choice`s with your own
-option. `bingo.py` makes 5x5 bingo boards, so you must feed it a list of 24
-choices.
+update to custom choices, simply replace each of the `Choice` instances with
+your own options. `bingo.py` makes 5x5 bingo boards, so you must feed it a list
+of 24 choices.
 
 # Examples
-Calling the script without choices print the following `html` to terminal
+Calling the script with the default `bingo_choices.txt`  prints the following
+`html` to terminal
 
 ```
 $ python3 bingo.py
