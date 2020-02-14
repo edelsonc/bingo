@@ -62,7 +62,11 @@ def create_board_order(choices, free):
 
 if __name__ == "__main__":
 
-    free = "free"
+    if len(sys.argv) > 1:
+        free = sys.argv[1]
+    else:
+        free = "free"
+
     try:
         with open("bingo_choices.txt", "r") as f:
             choices = [ i.strip() for i in f.readlines() if i.strip() != "" ]
