@@ -82,3 +82,9 @@ file
 ```
 $ python3 bingo.py > my_bingo.html
 ```
+
+Finally, to change the free space add a commandline argument. This string will
+be the text inserted instead of `free`
+```
+$ python3 bingo.py MyBetterFreeSpaceName
+```
