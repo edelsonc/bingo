@@ -72,7 +72,7 @@ if __name__ == "__main__":
             choices = [ i.strip() for i in f.readlines() if i.strip() != "" ]
 
     except FileNotFoundError:
-        print("File `bingo_choices.txt` not found in local directory. Please make create a file of board choices")
+        print("File `bingo_choices.txt` not found in local directory. Please make a file of board choices")
         sys.exit(1)
 
 
