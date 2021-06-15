@@ -12,7 +12,7 @@ To install, simply clone this reposity and run using `python3`.
 ```
 $ git clone https://github.com/edelsonc/bingo
 $ cd bingo
-$ python3 bingo
+$ python3 bingo.py
 ```
 
 The bingo board choices are specifies by the `bingo_choices.txt` file. To
